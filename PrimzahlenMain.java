@@ -15,7 +15,8 @@ public class PrimzahlenMain
         Scanner sc = new Scanner(System.in);
 
         PrimzahlenConsumer pc = new PrimzahlenConsumer(meinePrimzahlen); 
-        PrimzahlenProducer pp = new PrimzahlenProducer(meinePrimzahlen); 
+        PrimzahlenProducer pp = new PrimzahlenProducer(meinePrimzahlen);
+        pp.start();
         do
         {
             // Einlesen einer Zahl

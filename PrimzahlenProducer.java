@@ -1,12 +1,16 @@
-public class PrimzahlenProducer
+public class PrimzahlenProducer extends Thread
 {
     boolean prim[];
     long ready = 0;
+    Primzahlen meinePrimzahlen;
 
 
-    public PrimzahlenProducer(Primzahlen meinePrimzahlen)
-    {
-  
+    public PrimzahlenProducer(Primzahlen meinePrimzahlen) {
+        this.meinePrimzahlen = meinePrimzahlen;
+    }
+
+    @Override
+    public void run() {
         int n = meinePrimzahlen.getLength()-1;
 
         // Alle Zahlen von 1 bis n aufschreiben
