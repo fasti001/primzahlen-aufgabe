@@ -39,6 +39,11 @@ public class PrimzahlenProducer extends Thread
            }
            meinePrimzahlen.setReady(i); 
     	   System.out.println("Primzahlen bis " + i + " verfuegbar");
+           try {
+               this.sleep(1000);
+           } catch (InterruptedException e) {
+
+           }
         }
         meinePrimzahlen.setReady(n); 
     	System.out.println("Primzahlen bis " + n + " verfuegbar");
