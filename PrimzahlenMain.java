@@ -20,18 +20,21 @@ public class PrimzahlenMain
         do
         {
             // Einlesen einer Zahl
-            n = sc.nextInt();
-            if(n<MAXPRIM)
-            {
-                if(pc.istPrimzahl(n))
-                { 
-                    System.out.println(n + " ist eine Primzahl");
+            n = sc.nextInt();;
+            final var x = n;
+            new Thread(() -> {
+                if(x < MAXPRIM)
+                {
+                    if(pc.istPrimzahl(x))
+                    {
+                        System.out.println(x + " ist eine Primzahl");
+                    }
+                    else
+                    {
+                        System.out.println(x + " ist keine Primzahl");
+                    }
                 }
-                else
-                { 
-                    System.out.println(n + " ist keine Primzahl");
-                }
-            }
+            }).start();
         }   
         while(n>0);
     }

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3cbff4-4459-4bab-8ce2-6db2bf43db03" name="Changes" comment="async producer">
-      <change beforePath="$PROJECT_DIR$/PrimzahlenProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimzahlenProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Primzahlen-Aufgabe/PrimzahlenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Primzahlen-Aufgabe/PrimzahlenMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Primzahlen-Aufgabe/PrimzahlenProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Primzahlen-Aufgabe/PrimzahlenProducer.class" afterDir="false" />
+    <list default="true" id="6a3cbff4-4459-4bab-8ce2-6db2bf43db03" name="Changes" comment="waiting producer">
+      <change beforePath="$PROJECT_DIR$/PrimzahlenConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimzahlenConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimzahlenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimzahlenMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Primzahlen-Aufgabe/PrimzahlenMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Primzahlen-Aufgabe/PrimzahlenProducer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728371339333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="waiting producer">
+      <created>1728371658366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728371658366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +78,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="async producer" />
-    <option name="LAST_COMMIT_MESSAGE" value="async producer" />
+    <MESSAGE value="waiting producer" />
+    <option name="LAST_COMMIT_MESSAGE" value="waiting producer" />
   </component>
 </project>
