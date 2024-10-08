@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3cbff4-4459-4bab-8ce2-6db2bf43db03" name="Changes" comment="waiting check" />
+    <list default="true" id="6a3cbff4-4459-4bab-8ce2-6db2bf43db03" name="Changes" comment="aufgabe 5">
+      <change beforePath="$PROJECT_DIR$/PrimzahlenConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimzahlenConsumer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728374236633</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="aufgabe 5">
+      <created>1728374645176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728374645176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +107,7 @@
     <MESSAGE value="async abfrage" />
     <MESSAGE value="remove out" />
     <MESSAGE value="waiting check" />
-    <option name="LAST_COMMIT_MESSAGE" value="waiting check" />
+    <MESSAGE value="aufgabe 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="aufgabe 5" />
   </component>
 </project>

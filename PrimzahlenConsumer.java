@@ -11,7 +11,7 @@ public class PrimzahlenConsumer
     
     public boolean istPrimzahl(int l)
     {
-        while (meinePrimzahlen.ready < l) {
+        while (meinePrimzahlen.ready < l && meinePrimzahlen.isPrim(l)) {
             try { Thread.sleep(1); } catch (InterruptedException e) {};
         }
         return meinePrimzahlen.isPrim(l);
